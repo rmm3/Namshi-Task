@@ -1,0 +1,359 @@
+/*CSS file for the chromekitui.html
+ *Created by Riddhi Modha
+ */
+
+/*Style for the main base div*/
+#mainbase 
+{ 
+	left: 26px; 
+	top: 19px; 
+	position: absolute; 
+	width: 1300px;
+	height: 771px;
+	z-index:3;
+	background: white;
+} 
+
+/*Style for tabs bar*/
+#tabsbar 
+{ 
+	left: 0px; 
+	top: 0px; 
+	position: absolute; 
+	width: 1300px;
+	height: 35px;
+	border-radius: 0px;
+	z-index:8;
+	background: url("images/base_1.png");
+}
+
+/*Style for the browser controls bar*/
+#browsercontrols
+{ 
+	left: 0px; 
+	top: 35px; 
+	position: absolute; 
+	width: 1300px;
+	height: 38px;
+	z-index:8;
+	background: url("images/bg.png");
+}
+
+/*Style for back arrow*/
+#BackActive 
+{ 
+	left: 10px; 
+	top: 10px; 
+	position: absolute; 
+	width: 22px;
+	height: 20px;
+	z-index:29;
+	border: transparent;
+	background: url("images/BackActive.png") no-repeat;
+} 
+
+/*Style for hover on back arrow*/
+#BackActive:hover{
+	border-radius: 5px;
+	background: url("images/BackActive.png") lightgrey no-repeat;
+}
+
+/*Style for forward arrow */
+#ForwardInactive 
+{ 
+	left: 40px; 
+	top: 10px; 
+	position: absolute; 
+	width: 22px;
+	height: 20px;
+	z-index:30;
+	border: transparent;
+	background: url("images/ForwardInactive.png") no-repeat;
+} 
+
+/*Style for reload button*/
+#Reload 
+{ 
+	left: 70px; 
+	top: 10px; 
+	position: absolute; 
+	width: 22px;
+	height: 20px;
+	z-index:31;
+	border: transparent;
+	background: url("images/Reload.png") no-repeat;
+} 
+
+/*Style for hover on reload button*/
+#Reload:hover
+{
+	border-radius: 5px;
+	background: url("images/Reload.png") lightgrey no-repeat;
+}
+
+/*Style for home button*/
+#Home 
+{ 
+	left: 100px; 
+	top: 10px; 
+	position: absolute; 
+	width: 22px;
+	height: 20px;
+	z-index:28;
+	border: transparent;
+	background: url("images/Home.png") no-repeat;
+} 
+
+/*Style for hover on home button*/
+#Home:hover {
+	border-radius: 5px;
+	background: url("images/Home.png") lightgrey no-repeat;
+}
+
+ #locktop 
+{ 
+	 left: 136px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 9px;
+	 height: 13px;
+	 z-index:25;
+} 
+
+ #lockbottom 
+{ 
+	 left: 134px; 
+	 top: 18px; 
+	 position: absolute; 
+	 width: 13px;
+	 height: 10px;
+	 z-index:26;
+} 
+
+/*Styling for the url/address bar*/
+#AddressBar 
+{ 
+	left: 130px; 
+	top: 6px; 
+	position: absolute; 
+	width: 1115px;
+	height: 22px;
+	z-index:22;
+	background: white;
+	border: transparent;
+	border-radius: 5px;
+	padding-left: 20px;
+	outline: none;
+	font-weight: bold;
+}
+
+/*Style for the settings button*/
+#Settings 
+{ 
+	left: 1275px; 
+	top: 10px; 
+	position: absolute; 
+	width: 16px;
+	height: 16px;
+	z-index:27;
+	border: transparent;
+	background: url("images/Settings.png") no-repeat;
+}
+
+/*Style for hover on settings button*/
+#Settings:hover{
+	border-radius: 5px;
+	background: url("images/Settings.png") lightgrey no-repeat;
+	width: 20px;
+	padding-left: 3px;
+}
+
+/*Style for the fullscreen button*/
+#Fullscreen 
+{ 
+	left: 1275px; 
+	top: 10px; 
+	position: absolute; 
+	width: 17px;
+	height: 17px;
+	z-index:15;
+	border: transparent;
+	background: url("images/Fullscreen.png") no-repeat;
+}
+
+/*Style for hover on full screen button*/
+#Fullscreen:hover
+{
+	border-radius: 5px;
+	background: url("images/Fullscreen.png") lightgrey no-repeat;
+	width: 20px;
+	padding-left: 3px;
+}
+
+/*Style for the iframe to display content*/
+iframe
+{
+	top: 75px;
+	left: 0px;
+	position: absolute;
+	width: 1290px;
+	height: 700px;
+	background: white;
+	border: transparent;
+	margin-left: 5px;
+}
+
+/* Style the tab */
+#tab {
+
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: block;
+    left: 80px; 
+	top: 10px; 
+	position: absolute; 
+	width: 1200px;
+	height: 26px;
+	z-index:32;
+	border: transparent;
+	outline: none;
+}
+
+
+
+/* Style the buttons inside the tab */
+#tab button {
+    background: url("images/tabcopy.png") no-repeat;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: 0.3s;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 33px;
+    font-weight: bold;
+    width: 208px;
+}
+
+/*style for the addtab button*/
+#tab #addtabbutton{
+	margin-top: 5px;
+	background-image: none;
+	width: 25px;
+    padding-left: 10px;
+    border:1px solid #AEAEAE;
+    border-bottom:1px solid #8A8A8A;
+    border-radius: 4px;
+    transform: skewX(20deg );
+    background-color: linear-gradient(top, #D2D2D2, #CACACA);
+    box-shadow: inset 0 0 2px 0 rgba(233,233,233,0.9) ;
+}
+
+/* Change background color of buttons on hover */
+#tab button:hover {
+    background: url("images/tab.png");
+}
+
+/* Create an active/current tablink class */
+#tab button.active {
+    background: url("images/tab.png");
+}
+
+/*Style for the chrome browser icon*/
+#favicon_0
+{ 
+	left: 15px; 
+	top: 7px; 
+	position: absolute; 
+	width: 14px;
+	height: 14px;
+	z-index:34;
+}
+
+/*Style for the bookmark icon in Bookmark manager*/
+#favicon 
+{ 
+	left: 223px; 
+	top: 7px; 
+	position: absolute; 
+	width: 15px;
+	height: 15px;
+	z-index:19;
+}
+
+/*Style for the bookmark icon inside the address bar*/
+#bkmark 
+{ 
+	left: 1245px; 
+	top: 10px; 
+	position: absolute; 
+	width: 20px;
+	height: 19px;
+	z-index:23;
+	background: url("images/favicon.png") no-repeat;
+	border: transparent;
+	background-color: transparent;
+}
+
+/*Style for the Red OS X close button*/
+#red 
+{ 
+	left: 11px; 
+	top: 13.5px; 
+	position: absolute; 
+	width: 13.5px;
+	height: 13.5px;
+	z-index:13;
+	border-radius: 50%;
+	background: -moz-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -moz-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #f5443b;
+	background: -webkit-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -webkit-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #f5443b;
+	background: radial-gradient(5px 3px at 50% 80%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), radial-gradient(5px 6px at 50% 0%, #ffffff, rgba(255, 255, 255, 0)), #f5443b;
+	box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.9), 0 1px 2px 0 rgba(255,255,255,0.8);
+	border: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+/*Style for the Orange OS X min button*/
+#orange 
+{ 
+	left: 32px; 
+	top: 13px; 
+	position: absolute; 
+	width: 13.5px;
+	height: 13.5px;
+	z-index:11;
+	background: -moz-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -moz-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #efb038;
+	background: -webkit-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -webkit-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #efb038;
+	background: radial-gradient(5px 3px at 50% 80%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), radial-gradient(5px 6px at 50% 0%, #ffffff, rgba(255, 255, 255, 0)), #efb038;
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.9), 0 1px 2px 0 rgba(255,255,255,0.8);
+    border: transparent;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+/*Style for the Green OS X button*/
+#green 
+{ 
+	left: 55px; 
+	top: 13px; 
+	position: absolute; 
+	width: 13.5px;
+	height: 13.5px;
+	z-index:9;
+    background: -moz-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -moz-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #75D32D;
+    background: -webkit-radial-gradient(50% 80%, 5px 3px, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), -webkit-radial-gradient(50% 0%, 5px 6px, #ffffff, rgba(255, 255, 255, 0)), #75D32D;
+    background: radial-gradient(5px 3px at 50% 80%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), radial-gradient(5px 6px at 50% 0%, #ffffff, rgba(255, 255, 255, 0)), #75D32D;
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.9), 0 1px 2px 0 rgba(255,255,255,0.8);
+    border: transparent;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+} 
+
+
+
+

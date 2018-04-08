@@ -1,0 +1,35 @@
+<!--HTML File for chromekitui
+    Created by Riddhi Modha-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="chromeuikit.css">
+</head>
+
+<body>
+	<div id="mainbase">
+		<div id="tabsbar">
+			<button id="red"></button>
+			<button id="orange"></button>
+			<button id="green"></button>
+				<div id="tab">
+					<button id="0" class="active"><img id="favicon_0" src="images/favicon_0.png">Chrome Browser<img style="margin-left : 54px;" src="images/close.png"></button>
+					<button id="1"><img id="favicon" src="images/favicon.png">Bookmark Manager<img src="images/close.png" style="margin-left : 40px;"></button>
+					<button id="addtabbutton" style="height: 1px;"onclick="addnewtab();"></button>
+				</div>
+			<button id="Fullscreen"></button>
+			<div id="browsercontrols">
+				<button id="BackActive"></button>
+				<button id="ForwardInactive"></button>
+				<button id="Reload"></button>
+				<button id="Home"></button>
+				<img id="locktop" src="images/RoundedRectangle9.png"><img id="lockbottom" src="images/Rectangle4.png"><input type="text" name="addressbar" id="AddressBar" value="https://www.google.com/intl/en/chrome/browser/"><button id="bkmark"></button>
+				<button id="Settings"></button>
+			</div>
+	    </div>
+		<iframe id="tabcontent" src="https://www.google.com/intl/en/chrome/browser/"></iframe>
+	</div>
+	<script src="chromeuikit.js"></script> <!--Script tags here to reduce any lag caused due to loading a JS file-->
+</body>
+</html>
